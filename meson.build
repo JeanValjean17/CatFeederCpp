@@ -1,0 +1,1 @@
+project('Cat-Feeder', 'cpp')

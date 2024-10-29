@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "CrossARM",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/mcu/stm32l073rz/startup",
+                "${workspaceFolder}/src/mcu/arm_core",
+                "${workspaceFolder}/src/mcu/stm32l073rz/interrupts"
+            ],
+            "defines": [
+                "STM32F407xx",
+                "DEBUG"
+            ],
+            "compilerPath": "C:/gnu-arm/13.3rel1/bin/arm-none-eabi-g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
